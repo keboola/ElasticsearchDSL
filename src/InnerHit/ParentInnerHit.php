@@ -1,6 +1,6 @@
 <?php
 
-namespace ONGR\ElasticsearchDSL\InnerHit;
+namespace Keboola\ElasticsearchDSL\InnerHit;
 
 class ParentInnerHit extends NestedInnerHit
 {

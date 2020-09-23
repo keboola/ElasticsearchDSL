@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Aggregation\Metric;
+namespace Keboola\ElasticsearchDSL\Aggregation\Metric;
 
-use ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation;
-use ONGR\ElasticsearchDSL\Aggregation\Type\MetricTrait;
-use ONGR\ElasticsearchDSL\ScriptAwareTrait;
+use Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Type\MetricTrait;
+use Keboola\ElasticsearchDSL\ScriptAwareTrait;
 
 /**
  * Class representing Percentile Ranks Aggregation.

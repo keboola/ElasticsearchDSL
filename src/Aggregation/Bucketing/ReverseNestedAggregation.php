@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Aggregation\Bucketing;
+namespace Keboola\ElasticsearchDSL\Aggregation\Bucketing;
 
-use ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation;
-use ONGR\ElasticsearchDSL\Aggregation\Type\BucketingTrait;
+use Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Type\BucketingTrait;
 
 /**
  * Class representing ReverseNestedAggregation.

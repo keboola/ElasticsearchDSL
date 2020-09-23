@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Query\Joining;
+namespace Keboola\ElasticsearchDSL\Query\Joining;
 
-use ONGR\ElasticsearchDSL\BuilderInterface;
-use ONGR\ElasticsearchDSL\ParametersTrait;
+use Keboola\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\ParametersTrait;
 
 /**
  * Represents Elasticsearch "nested" query.

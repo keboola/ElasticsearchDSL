@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Unit\SearchEndpoint;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Unit\SearchEndpoint;
 
-use ONGR\ElasticsearchDSL\Query\MatchAllQuery;
-use ONGR\ElasticsearchDSL\SearchEndpoint\QueryEndpoint;
+use Keboola\ElasticsearchDSL\Query\MatchAllQuery;
+use Keboola\ElasticsearchDSL\SearchEndpoint\QueryEndpoint;
 use PHPUnit_Framework_MockObject_MockObject as MockObject;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 
@@ -26,7 +26,7 @@ class QueryEndpointTest extends \PHPUnit_Framework_TestCase
      */
     public function testItCanBeInstantiated()
     {
-        $this->assertInstanceOf('ONGR\ElasticsearchDSL\SearchEndpoint\QueryEndpoint', new QueryEndpoint());
+        $this->assertInstanceOf('Keboola\ElasticsearchDSL\SearchEndpoint\QueryEndpoint', new QueryEndpoint());
     }
 
     /**

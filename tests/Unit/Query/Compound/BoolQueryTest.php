@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Compound;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Compound;
 
-use ONGR\ElasticsearchDSL\Query\Compound\BoolQuery;
-use ONGR\ElasticsearchDSL\Query\MatchAllQuery;
-use ONGR\ElasticsearchDSL\Query\TermLevel\TermQuery;
+use Keboola\ElasticsearchDSL\Query\Compound\BoolQuery;
+use Keboola\ElasticsearchDSL\Query\MatchAllQuery;
+use Keboola\ElasticsearchDSL\Query\TermLevel\TermQuery;
 
 /**
  * Unit test for Bool.

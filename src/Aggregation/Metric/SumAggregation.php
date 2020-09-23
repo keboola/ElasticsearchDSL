@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Aggregation\Metric;
+namespace Keboola\ElasticsearchDSL\Aggregation\Metric;
 
 /**
  * Class representing Sum Aggregation.

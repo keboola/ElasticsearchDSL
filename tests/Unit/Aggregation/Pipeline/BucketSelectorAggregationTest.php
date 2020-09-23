@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
 
-use ONGR\ElasticsearchDSL\Aggregation\Pipeline\BucketSelectorAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Pipeline\BucketSelectorAggregation;
 
 /**
  * Unit test for bucket selector pipeline aggregation.

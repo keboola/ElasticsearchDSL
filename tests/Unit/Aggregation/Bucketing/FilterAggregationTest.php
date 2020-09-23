@@ -9,14 +9,14 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\FilterAggregation;
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\HistogramAggregation;
-use ONGR\ElasticsearchDSL\Query\Compound\BoolQuery;
-use ONGR\ElasticsearchDSL\Query\TermLevel\ExistsQuery;
-use ONGR\ElasticsearchDSL\Query\MatchAllQuery;
-use ONGR\ElasticsearchDSL\Query\TermLevel\TermQuery;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\FilterAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\HistogramAggregation;
+use Keboola\ElasticsearchDSL\Query\Compound\BoolQuery;
+use Keboola\ElasticsearchDSL\Query\TermLevel\ExistsQuery;
+use Keboola\ElasticsearchDSL\Query\MatchAllQuery;
+use Keboola\ElasticsearchDSL\Query\TermLevel\TermQuery;
 
 class FilterAggregationTest extends \PHPUnit_Framework_TestCase
 {

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\SignificantTermsAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\SignificantTermsAggregation;
 
 /**
  * Unit test for children aggregation.
@@ -33,7 +33,7 @@ class SignificantTermsAggregationTest extends \PHPUnit_Framework_TestCase
      */
     public function testSignificantTermsAggregationGetArray()
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation')
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation')
             ->disableOriginalConstructor()
             ->getMockForAbstractClass();
         $aggregation = new SignificantTermsAggregation('foo', 'title');

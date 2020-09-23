@@ -9,13 +9,13 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit;
+namespace Keboola\ElasticsearchDSL\Tests\Unit;
 
-use ONGR\ElasticsearchDSL\Query\TermLevel\ExistsQuery;
-use ONGR\ElasticsearchDSL\Query\TermLevel\TermQuery;
-use ONGR\ElasticsearchDSL\Search;
-use ONGR\ElasticsearchDSL\Sort\FieldSort;
-use ONGR\ElasticsearchDSL\Suggest\Suggest;
+use Keboola\ElasticsearchDSL\Query\TermLevel\ExistsQuery;
+use Keboola\ElasticsearchDSL\Query\TermLevel\TermQuery;
+use Keboola\ElasticsearchDSL\Search;
+use Keboola\ElasticsearchDSL\Sort\FieldSort;
+use Keboola\ElasticsearchDSL\Suggest\Suggest;
 
 /**
  * Test for Search.
@@ -27,7 +27,7 @@ class SearchTest extends \PHPUnit_Framework_TestCase
      */
     public function testItCanBeInstantiated()
     {
-        $this->assertInstanceOf('ONGR\ElasticsearchDSL\Search', new Search());
+        $this->assertInstanceOf('Keboola\ElasticsearchDSL\Search', new Search());
     }
 
     public function testScrollUriParameter()

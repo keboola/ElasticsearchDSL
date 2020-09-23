@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Aggregation\Bucketing;
+namespace Keboola\ElasticsearchDSL\Aggregation\Bucketing;
 
-use ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation;
-use ONGR\ElasticsearchDSL\Aggregation\Type\BucketingTrait;
-use ONGR\ElasticsearchDSL\ScriptAwareTrait;
+use Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Type\BucketingTrait;
+use Keboola\ElasticsearchDSL\ScriptAwareTrait;
 
 /**
  * Class representing TermsAggregation.

@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\InnerHit;
+namespace Keboola\ElasticsearchDSL\InnerHit;
 
-use ONGR\ElasticsearchDSL\BuilderInterface;
-use ONGR\ElasticsearchDSL\NameAwareTrait;
-use ONGR\ElasticsearchDSL\ParametersTrait;
-use ONGR\ElasticsearchDSL\Search;
+use Keboola\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\NameAwareTrait;
+use Keboola\ElasticsearchDSL\ParametersTrait;
+use Keboola\ElasticsearchDSL\Search;
 
 /**
  * Represents Elasticsearch top level nested inner hits.

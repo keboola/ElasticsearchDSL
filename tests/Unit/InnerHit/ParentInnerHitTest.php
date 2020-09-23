@@ -1,10 +1,10 @@
 <?php
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\InnerHit;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\InnerHit;
 
-use ONGR\ElasticsearchDSL\InnerHit\ParentInnerHit;
-use ONGR\ElasticsearchDSL\Query\TermLevel\TermQuery;
-use ONGR\ElasticsearchDSL\Search;
+use Keboola\ElasticsearchDSL\InnerHit\ParentInnerHit;
+use Keboola\ElasticsearchDSL\Query\TermLevel\TermQuery;
+use Keboola\ElasticsearchDSL\Search;
 
 class ParentInnerHitTest extends \PHPUnit_Framework_TestCase
 {

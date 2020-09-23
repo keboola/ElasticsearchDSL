@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\FiltersAggregation;
-use ONGR\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\FiltersAggregation;
+use Keboola\ElasticsearchDSL\BuilderInterface;
 
 /**
  * Unit test for filters aggregation.
@@ -27,7 +27,7 @@ class FiltersAggregationTest extends \PHPUnit_Framework_TestCase
      */
     public function testIfExceptionIsThrown()
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\BuilderInterface')->getMock();
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\BuilderInterface')->getMock();
         $aggregation = new FiltersAggregation('test_agg');
         $aggregation->addFilter($mock);
     }
@@ -37,7 +37,7 @@ class FiltersAggregationTest extends \PHPUnit_Framework_TestCase
      */
     public function testFiltersAggregationGetArray()
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\BuilderInterface')->getMock();
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\BuilderInterface')->getMock();
         $aggregation = new FiltersAggregation('test_agg');
         $aggregation->setAnonymous(true);
         $aggregation->addFilter($mock, 'name');
@@ -61,7 +61,7 @@ class FiltersAggregationTest extends \PHPUnit_Framework_TestCase
     public function testToArray()
     {
         $aggregation = new FiltersAggregation('test_agg');
-        $filter = $this->getMockBuilder('ONGR\ElasticsearchDSL\BuilderInterface')
+        $filter = $this->getMockBuilder('Keboola\ElasticsearchDSL\BuilderInterface')
             ->setMethods(['toArray', 'getType'])
             ->getMockForAbstractClass();
         $filter->expects($this->any())
@@ -96,9 +96,9 @@ class FiltersAggregationTest extends \PHPUnit_Framework_TestCase
     public function testConstructorFilter()
     {
         /** @var BuilderInterface|\PHPUnit_Framework_MockObject_MockObject $builderInterface1 */
-        $builderInterface1 = $this->getMockForAbstractClass('ONGR\ElasticsearchDSL\BuilderInterface');
+        $builderInterface1 = $this->getMockForAbstractClass('Keboola\ElasticsearchDSL\BuilderInterface');
         /** @var BuilderInterface|\PHPUnit_Framework_MockObject_MockObject $builderInterface2 */
-        $builderInterface2 = $this->getMockForAbstractClass('ONGR\ElasticsearchDSL\BuilderInterface');
+        $builderInterface2 = $this->getMockForAbstractClass('Keboola\ElasticsearchDSL\BuilderInterface');
 
         $aggregation = new FiltersAggregation(
             'test',

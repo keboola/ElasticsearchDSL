@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Specialized;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Specialized;
 
-use ONGR\ElasticsearchDSL\Query\Specialized\ScriptQuery;
+use Keboola\ElasticsearchDSL\Query\Specialized\ScriptQuery;
 
 class ScriptQueryTest extends \PHPUnit_Framework_TestCase
 {

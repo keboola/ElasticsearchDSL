@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Query\Compound;
+namespace Keboola\ElasticsearchDSL\Query\Compound;
 
-use ONGR\ElasticsearchDSL\BuilderInterface;
-use ONGR\ElasticsearchDSL\ParametersTrait;
+use Keboola\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\ParametersTrait;
 
 /**
  * Represents Elasticsearch "function_score" query.
@@ -60,7 +60,7 @@ class FunctionScoreQuery implements BuilderInterface
         BuilderInterface $query = null,
         $missing = null
     ) {
-    
+
         $function = [
             'field_value_factor' => array_filter([
                 'field' => $field,

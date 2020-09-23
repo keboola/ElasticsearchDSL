@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Span;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Span;
 
-use ONGR\ElasticsearchDSL\Query\Span\SpanMultiTermQuery;
+use Keboola\ElasticsearchDSL\Query\Span\SpanMultiTermQuery;
 
 /**
  * Unit test for SpanMultiTermQuery.
@@ -23,7 +23,7 @@ class SpanMultiTermQueryTest extends \PHPUnit_Framework_TestCase
      */
     public function testToArray()
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\BuilderInterface')->getMock();
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\BuilderInterface')->getMock();
         $mock
             ->expects($this->once())
             ->method('toArray')

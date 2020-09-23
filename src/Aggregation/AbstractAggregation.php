@@ -9,12 +9,12 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Aggregation;
+namespace Keboola\ElasticsearchDSL\Aggregation;
 
-use ONGR\ElasticsearchDSL\BuilderBag;
-use ONGR\ElasticsearchDSL\BuilderInterface;
-use ONGR\ElasticsearchDSL\NameAwareTrait;
-use ONGR\ElasticsearchDSL\ParametersTrait;
+use Keboola\ElasticsearchDSL\BuilderBag;
+use Keboola\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\NameAwareTrait;
+use Keboola\ElasticsearchDSL\ParametersTrait;
 
 /**
  * AbstractAggregation class.
@@ -86,7 +86,7 @@ abstract class AbstractAggregation implements BuilderInterface
         }
 
         $this->aggregations->add($abstractAggregation);
-        
+
         return $this;
     }
 

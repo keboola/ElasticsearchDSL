@@ -9,25 +9,25 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL;
+namespace Keboola\ElasticsearchDSL;
 
-use ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation;
-use ONGR\ElasticsearchDSL\Highlight\Highlight;
-use ONGR\ElasticsearchDSL\InnerHit\NestedInnerHit;
-use ONGR\ElasticsearchDSL\Query\Compound\BoolQuery;
-use ONGR\ElasticsearchDSL\SearchEndpoint\AbstractSearchEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\AggregationsEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\HighlightEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\InnerHitsEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\PostFilterEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\QueryEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\SearchEndpointFactory;
-use ONGR\ElasticsearchDSL\SearchEndpoint\SearchEndpointInterface;
-use ONGR\ElasticsearchDSL\SearchEndpoint\SortEndpoint;
-use ONGR\ElasticsearchDSL\Serializer\Normalizer\CustomReferencedNormalizer;
-use ONGR\ElasticsearchDSL\Serializer\OrderedSerializer;
+use Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation;
+use Keboola\ElasticsearchDSL\Highlight\Highlight;
+use Keboola\ElasticsearchDSL\InnerHit\NestedInnerHit;
+use Keboola\ElasticsearchDSL\Query\Compound\BoolQuery;
+use Keboola\ElasticsearchDSL\SearchEndpoint\AbstractSearchEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\AggregationsEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\HighlightEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\InnerHitsEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\PostFilterEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\QueryEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\SearchEndpointFactory;
+use Keboola\ElasticsearchDSL\SearchEndpoint\SearchEndpointInterface;
+use Keboola\ElasticsearchDSL\SearchEndpoint\SortEndpoint;
+use Keboola\ElasticsearchDSL\Serializer\Normalizer\CustomReferencedNormalizer;
+use Keboola\ElasticsearchDSL\Serializer\OrderedSerializer;
 use Symfony\Component\Serializer\Normalizer\CustomNormalizer;
-use ONGR\ElasticsearchDSL\SearchEndpoint\SuggestEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\SuggestEndpoint;
 
 /**
  * Search object that can be executed by a manager.

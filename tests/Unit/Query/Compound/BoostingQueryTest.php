@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Compound;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Compound;
 
-use ONGR\ElasticsearchDSL\Query\Compound\BoostingQuery;
+use Keboola\ElasticsearchDSL\Query\Compound\BoostingQuery;
 
 class BoostingQueryTest extends \PHPUnit_Framework_TestCase
 {
@@ -20,7 +20,7 @@ class BoostingQueryTest extends \PHPUnit_Framework_TestCase
      */
     public function testToArray()
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\BuilderInterface')->getMock();
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\BuilderInterface')->getMock();
         $mock
             ->expects($this->any())
             ->method('toArray')

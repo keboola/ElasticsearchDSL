@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Geo;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Geo;
 
-use ONGR\ElasticsearchDSL\Query\Geo\GeoPolygonQuery;
+use Keboola\ElasticsearchDSL\Query\Geo\GeoPolygonQuery;
 
 class GeoPolygonQueryTest extends \PHPUnit_Framework_TestCase
 {

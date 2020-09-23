@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\TermLevel;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\TermLevel;
 
-use ONGR\ElasticsearchDSL\Query\TermLevel\PrefixQuery;
+use Keboola\ElasticsearchDSL\Query\TermLevel\PrefixQuery;
 
 class PrefixQueryTest extends \PHPUnit_Framework_TestCase
 {

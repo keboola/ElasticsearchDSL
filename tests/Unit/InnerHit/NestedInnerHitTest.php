@@ -1,11 +1,11 @@
 <?php
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\InnerHit;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\InnerHit;
 
-use ONGR\ElasticsearchDSL\InnerHit\NestedInnerHit;
-use ONGR\ElasticsearchDSL\Query\FullText\MatchQuery;
-use ONGR\ElasticsearchDSL\Query\Joining\NestedQuery;
-use ONGR\ElasticsearchDSL\Search;
+use Keboola\ElasticsearchDSL\InnerHit\NestedInnerHit;
+use Keboola\ElasticsearchDSL\Query\FullText\MatchQuery;
+use Keboola\ElasticsearchDSL\Query\Joining\NestedQuery;
+use Keboola\ElasticsearchDSL\Search;
 
 class NestedInnerHitTest extends \PHPUnit_Framework_TestCase
 {

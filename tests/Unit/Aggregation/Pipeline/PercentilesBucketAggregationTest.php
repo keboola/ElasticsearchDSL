@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
 
-use ONGR\ElasticsearchDSL\Aggregation\Pipeline\PercentilesBucketAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Pipeline\PercentilesBucketAggregation;
 
 /**
  * Unit test for percentiles bucket aggregation.

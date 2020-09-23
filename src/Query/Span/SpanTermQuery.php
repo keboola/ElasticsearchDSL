@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Query\Span;
+namespace Keboola\ElasticsearchDSL\Query\Span;
 
-use ONGR\ElasticsearchDSL\Query\TermLevel\TermQuery;
+use Keboola\ElasticsearchDSL\Query\TermLevel\TermQuery;
 
 /**
  * Elasticsearch span_term query class.
