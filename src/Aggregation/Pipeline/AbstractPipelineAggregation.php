@@ -1,9 +1,9 @@
 <?php
 
-namespace ONGR\ElasticsearchDSL\Aggregation\Pipeline;
+namespace Keboola\ElasticsearchDSL\Aggregation\Pipeline;
 
-use ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation;
-use ONGR\ElasticsearchDSL\Aggregation\Type\MetricTrait;
+use Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Type\MetricTrait;
 
 abstract class AbstractPipelineAggregation extends AbstractAggregation
 {

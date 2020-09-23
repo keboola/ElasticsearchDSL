@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
 
-use ONGR\ElasticsearchDSL\Aggregation\Pipeline\BucketScriptAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Pipeline\BucketScriptAggregation;
 
 /**
  * Unit test for bucket script pipeline aggregation.

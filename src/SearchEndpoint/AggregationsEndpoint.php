@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\SearchEndpoint;
+namespace Keboola\ElasticsearchDSL\SearchEndpoint;
 
-use ONGR\ElasticsearchDSL\Aggregation\AbstractAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\AbstractAggregation;
 use Symfony\Component\Serializer\Normalizer\NormalizerInterface;
 
 /**

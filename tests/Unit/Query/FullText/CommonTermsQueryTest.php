@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\FullText;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\FullText;
 
-use ONGR\ElasticsearchDSL\Query\FullText\CommonTermsQuery;
+use Keboola\ElasticsearchDSL\Query\FullText\CommonTermsQuery;
 
 class CommonTermsQueryTest extends \PHPUnit_Framework_TestCase
 {

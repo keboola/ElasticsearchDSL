@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\GeoHashGridAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\GeoHashGridAggregation;
 
 /**
  * Unit test for geohash grid aggregation.

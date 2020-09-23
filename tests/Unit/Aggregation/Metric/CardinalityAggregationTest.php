@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Metric\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Metric\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Metric\CardinalityAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Metric\CardinalityAggregation;
 
 /**
  * Unit test for cardinality aggregation.

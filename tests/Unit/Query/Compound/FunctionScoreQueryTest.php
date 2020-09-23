@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Compound;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Compound;
 
-use ONGR\ElasticsearchDSL\BuilderInterface;
-use ONGR\ElasticsearchDSL\Query\Compound\FunctionScoreQuery;
-use ONGR\ElasticsearchDSL\Query\MatchAllQuery;
+use Keboola\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\Query\Compound\FunctionScoreQuery;
+use Keboola\ElasticsearchDSL\Query\MatchAllQuery;
 use PHPUnit_Framework_MockObject_MockObject as MockObject;
 
 /**
@@ -67,21 +67,21 @@ class FunctionScoreQueryTest extends \PHPUnit_Framework_TestCase
     public function testAddRandomFunction($seed, $expectedArray)
     {
         /** @var MatchAllQuery|MockObject $matchAllQuery */
-        $matchAllQuery = $this->getMockBuilder('ONGR\ElasticsearchDSL\Query\MatchAllQuery')->getMock();
+        $matchAllQuery = $this->getMockBuilder('Keboola\ElasticsearchDSL\Query\MatchAllQuery')->getMock();
 
         $functionScoreQuery = new FunctionScoreQuery($matchAllQuery);
         $functionScoreQuery->addRandomFunction($seed);
 
         $this->assertEquals(['function_score' => $expectedArray], $functionScoreQuery->toArray());
     }
-    
+
     /**
      * Tests default argument values.
      */
     public function testAddFieldValueFactorFunction()
     {
         /** @var BuilderInterface|MockObject $builderInterface */
-        $builderInterface = $this->getMockForAbstractClass('ONGR\ElasticsearchDSL\BuilderInterface');
+        $builderInterface = $this->getMockForAbstractClass('Keboola\ElasticsearchDSL\BuilderInterface');
         $functionScoreQuery = new FunctionScoreQuery($builderInterface);
         $functionScoreQuery->addFieldValueFactorFunction('field1', 2);
         $functionScoreQuery->addFieldValueFactorFunction('field2', 1.5, 'ln');

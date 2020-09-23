@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Unit\SearchEndpoint;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Unit\SearchEndpoint;
 
-use ONGR\ElasticsearchDSL\SearchEndpoint\AggregationsEndpoint;
-use ONGR\ElasticsearchDSL\SearchEndpoint\SearchEndpointFactory;
+use Keboola\ElasticsearchDSL\SearchEndpoint\AggregationsEndpoint;
+use Keboola\ElasticsearchDSL\SearchEndpoint\SearchEndpointFactory;
 
 /**
  * Unit test class for search endpoint factory.

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Metric\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Metric\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Metric\TopHitsAggregation;
-use ONGR\ElasticsearchDSL\Sort\FieldSort;
+use Keboola\ElasticsearchDSL\Aggregation\Metric\TopHitsAggregation;
+use Keboola\ElasticsearchDSL\Sort\FieldSort;
 
 /**
  * Unit tests for top hits aggregation.

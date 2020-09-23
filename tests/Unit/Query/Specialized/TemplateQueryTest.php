@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Specialized;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Specialized;
 
-use ONGR\ElasticsearchDSL\Query\Specialized\TemplateQuery;
+use Keboola\ElasticsearchDSL\Query\Specialized\TemplateQuery;
 
 /**
  * Unit test for Template.

@@ -9,10 +9,10 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\ReverseNestedAggregation;
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\TermsAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\ReverseNestedAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\TermsAggregation;
 
 class ReverseNestedAggregationTest extends \PHPUnit_Framework_TestCase
 {

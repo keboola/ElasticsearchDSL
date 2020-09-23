@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Serializer;
+namespace Keboola\ElasticsearchDSL\Serializer;
 
-use ONGR\ElasticsearchDSL\Serializer\Normalizer\OrderedNormalizerInterface;
+use Keboola\ElasticsearchDSL\Serializer\Normalizer\OrderedNormalizerInterface;
 use Symfony\Component\Serializer\Serializer;
 
 /**

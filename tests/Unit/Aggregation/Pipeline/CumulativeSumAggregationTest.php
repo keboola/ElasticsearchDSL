@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
 
-use ONGR\ElasticsearchDSL\Aggregation\Pipeline\CumulativeSumAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Pipeline\CumulativeSumAggregation;
 
 /**
  * Unit test for cumulative sum aggregation.

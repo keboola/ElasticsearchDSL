@@ -9,7 +9,7 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\SearchEndpoint;
+namespace Keboola\ElasticsearchDSL\SearchEndpoint;
 
 /**
  * Factory for search endpoints.
@@ -20,13 +20,13 @@ class SearchEndpointFactory
      * @var array Holds namespaces for endpoints.
      */
     private static $endpoints = [
-        'query' => 'ONGR\ElasticsearchDSL\SearchEndpoint\QueryEndpoint',
-        'post_filter' => 'ONGR\ElasticsearchDSL\SearchEndpoint\PostFilterEndpoint',
-        'sort' => 'ONGR\ElasticsearchDSL\SearchEndpoint\SortEndpoint',
-        'highlight' => 'ONGR\ElasticsearchDSL\SearchEndpoint\HighlightEndpoint',
-        'aggregations' => 'ONGR\ElasticsearchDSL\SearchEndpoint\AggregationsEndpoint',
-        'suggest' => 'ONGR\ElasticsearchDSL\SearchEndpoint\SuggestEndpoint',
-        'inner_hits' => 'ONGR\ElasticsearchDSL\SearchEndpoint\InnerHitsEndpoint',
+        'query' => 'Keboola\ElasticsearchDSL\SearchEndpoint\QueryEndpoint',
+        'post_filter' => 'Keboola\ElasticsearchDSL\SearchEndpoint\PostFilterEndpoint',
+        'sort' => 'Keboola\ElasticsearchDSL\SearchEndpoint\SortEndpoint',
+        'highlight' => 'Keboola\ElasticsearchDSL\SearchEndpoint\HighlightEndpoint',
+        'aggregations' => 'Keboola\ElasticsearchDSL\SearchEndpoint\AggregationsEndpoint',
+        'suggest' => 'Keboola\ElasticsearchDSL\SearchEndpoint\SuggestEndpoint',
+        'inner_hits' => 'Keboola\ElasticsearchDSL\SearchEndpoint\InnerHitsEndpoint',
     ];
 
     /**

@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Span;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Span;
 
-use ONGR\ElasticsearchDSL\Query\Span\SpanFirstQuery;
+use Keboola\ElasticsearchDSL\Query\Span\SpanFirstQuery;
 
 /**
  * Unit test for SpanFirstQuery.
@@ -23,7 +23,7 @@ class SpanFirstQueryTest extends \PHPUnit_Framework_TestCase
      */
     public function testToArray()
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\Query\Span\SpanQueryInterface')->getMock();
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\Query\Span\SpanQueryInterface')->getMock();
         $mock
             ->expects($this->once())
             ->method('toArray')

@@ -9,11 +9,11 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Functional\Query;
+namespace Keboola\ElasticsearchDSL\Tests\Functional\Query;
 
-use ONGR\ElasticsearchDSL\Query\MatchAllQuery;
-use ONGR\ElasticsearchDSL\Search;
-use ONGR\ElasticsearchDSL\Tests\Functional\AbstractElasticsearchTestCase;
+use Keboola\ElasticsearchDSL\Query\MatchAllQuery;
+use Keboola\ElasticsearchDSL\Search;
+use Keboola\ElasticsearchDSL\Tests\Functional\AbstractElasticsearchTestCase;
 
 class MatchAllQueryTest extends AbstractElasticsearchTestCase
 {

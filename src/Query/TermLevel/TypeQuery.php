@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Query\TermLevel;
+namespace Keboola\ElasticsearchDSL\Query\TermLevel;
 
-use ONGR\ElasticsearchDSL\BuilderInterface;
+use Keboola\ElasticsearchDSL\BuilderInterface;
 
 /**
  * Represents Elasticsearch "type" query.

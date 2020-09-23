@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Span;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Span;
 
-use ONGR\ElasticsearchDSL\Query\Span\SpanContainingQuery;
+use Keboola\ElasticsearchDSL\Query\Span\SpanContainingQuery;
 
 /**
  * Unit test for SpanContainingQuery.
@@ -47,7 +47,7 @@ class SpanContainingQueryTest extends \PHPUnit_Framework_TestCase
      */
     private function getSpanQueryMock($value)
     {
-        $mock = $this->getMockBuilder('ONGR\ElasticsearchDSL\Query\Span\SpanQueryInterface')->getMock();
+        $mock = $this->getMockBuilder('Keboola\ElasticsearchDSL\Query\Span\SpanQueryInterface')->getMock();
         $mock
             ->expects($this->once())
             ->method('toArray')

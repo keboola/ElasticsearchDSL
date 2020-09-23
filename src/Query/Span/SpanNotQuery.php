@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Query\Span;
+namespace Keboola\ElasticsearchDSL\Query\Span;
 
-use ONGR\ElasticsearchDSL\ParametersTrait;
+use Keboola\ElasticsearchDSL\ParametersTrait;
 
 /**
  * Elasticsearch Span not query.

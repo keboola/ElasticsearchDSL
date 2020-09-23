@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Bucketing\Aggregation;
 
-use ONGR\ElasticsearchDSL\Aggregation\Bucketing\DateRangeAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Bucketing\DateRangeAggregation;
 
 class DateRangeAggregationTest extends \PHPUnit_Framework_TestCase
 {
@@ -117,7 +117,7 @@ class DateRangeAggregationTest extends \PHPUnit_Framework_TestCase
     public function testDateRangeAggregationConstructor($field = null, $format = null, array $ranges = null)
     {
         /** @var DateRangeAggregation|\PHPUnit_Framework_MockObject_MockObject $aggregation */
-        $aggregation = $this->getMockBuilder('ONGR\ElasticsearchDSL\Aggregation\Bucketing\DateRangeAggregation')
+        $aggregation = $this->getMockBuilder('Keboola\ElasticsearchDSL\Aggregation\Bucketing\DateRangeAggregation')
             ->setMethods(['setField', 'setFormat', 'addRange'])
             ->disableOriginalConstructor()
             ->getMock();

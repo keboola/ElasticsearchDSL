@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Query\Span;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Query\Span;
 
-use ONGR\ElasticsearchDSL\Query\Span\SpanTermQuery;
+use Keboola\ElasticsearchDSL\Query\Span\SpanTermQuery;
 
 /**
  * Unit test for SpanTermQuery.

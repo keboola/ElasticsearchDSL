@@ -9,9 +9,9 @@
  * file that was distributed with this source code.
  */
 
-namespace ONGR\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
+namespace Keboola\ElasticsearchDSL\Tests\Unit\Aggregation\Pipeline;
 
-use ONGR\ElasticsearchDSL\Aggregation\Pipeline\AvgBucketAggregation;
+use Keboola\ElasticsearchDSL\Aggregation\Pipeline\AvgBucketAggregation;
 
 /**
  * Unit test for avg_bucket aggregation.
